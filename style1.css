@@ -1,0 +1,139 @@
+/* Reset everything */
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+	padding: 0;
+	border: 0;
+	margin-top: 0;
+	margin-right: 0;
+	margin-bottom: 0;
+	margin-left: 0;
+	
+}
+
+/* =============================================================================
+   HTML5 display definitions
+   ========================================================================== */
+
+article, aside, details, figcaption, figure, footer, header, hgroup, nav, section { display: block; }
+
+* {
+	-moz-box-sizing: border-box;
+	box-sizing:  border-box;
+}
+
+
+body {
+	background-color: #423C31;
+	margin-right: auto;
+	margin-left: auto;
+	font-size: 62.5%;
+	margin-top: 0px;
+	color: #F8F8F8;
+}
+
+.container {
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 1.3em;
+	color: #F8F8F8;
+	background-color: #68604D;
+	width: 100%;
+	max-width: 950px;
+	margin-top: 0px;
+	margin-right: auto;
+	margin-left: auto;
+	padding-bottom: 25px;
+	text-align: center;
+}
+
+.header {
+	text-align: center;
+	min-width: 800px;
+	max-width: 950px;
+	background-image: url(images/bg-head.jpg);
+	background-repeat: repeat-x;
+	margin-bottom: 5px;
+}
+.navlinks {
+	margin-left: 0px;
+	padding-left: 0px;
+	list-style-type: none;
+	margin-bottom: 20px;
+}
+article {
+	font-size: 1em;
+	line-height: 1.25;
+	background-color: #635A49;
+	text-align: left;
+	padding-top: 11px;
+	padding-right: 20px;
+	padding-bottom: 20px;
+	padding-left: 20px;
+}
+
+.navlinks li {
+	display: inline;
+}
+
+
+
+.navlinks li a{
+	font-size: 1em;
+	color: #FFF;
+	text-decoration: none;
+	list-style-type: none;
+	display: inline-block;
+	margin-right: 20px;
+	padding-top: 5px;
+	padding-right: 15px;
+	padding-bottom: 5px;
+	padding-left: 15px;
+	letter-spacing: .1em;
+}
+
+.spaceonright {
+	text-decoration: none;
+	margin-right: 15px;
+	border-top-style: none;
+	border-right-style: none;
+	border-bottom-style: none;
+	border-left-style: none;
+	margin-top: 5px;
+	margin-bottom: 5px;
+}
+
+article p a {
+	color: #FFF;
+}
+
+article ul li {
+	margin-left: 25px;
+	margin-top: 15px;
+}
+
+article ul {
+	margin-left: 200px;
+}
+
+article #directions {
+	float: right;
+	width: 40%;
+}
+
+article p {
+	line-height: 1.5;
+}
+
+article h1 {
+	font-size: 1.5em;
+	font-weight: normal;
+	padding-bottom: 15px;
+}
+
+.faqslist p {
+	margin-bottom: 11px;
+	padding-left: 20px;
+	padding-right: 20px;
+}
+
+.container article ul li a {
+	color: #FFF;
+}
